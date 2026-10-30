@@ -29,7 +29,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     fill(255, 80, 120);
     textSize(22);
-    textStyle(BOLD);
     text('Game over\nScore: ' + score + '\nClick to retry', width / 2, height / 2);
     return;
   }
